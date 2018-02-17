@@ -11,16 +11,11 @@ package homework.l7;
  * 4) умножение матриц - по желанию.
  */
 public class Matrix {
-    //public class Matrix {
-        double[][] array;
-        int lines;
-        int colums;
-
-        public Matrix(double[][] array, int lines, int colums) {
-            this.array = array;
-            this.lines = lines;
-            this.colums = colums;
-        }
-
+    public static void main(String[] args) {
+        int[][] array = new int[3][3];
+        int lines = 3;
+        int colums = 3;
     }
+
+}
 
