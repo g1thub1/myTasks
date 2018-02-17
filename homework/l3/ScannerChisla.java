@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class ScannerChisla {
     public static void main(String[] args) {
-        java.util.Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         result(sc);
     }
 

@@ -4,16 +4,19 @@ import java.util.Scanner;
 
 public class Metod {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        result(sc);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Введите число ");
+        int a = result(scan);
+        int b = result(scan);
+        System.out.println("Ответ " + (a + b));
     }
 
-    private static void result(Scanner sc) {
-        sc.hasNextInt();
-        int a = sc.nextInt();
-        sc.hasNextInt();
-        int b = sc.nextInt();
-        a += b;
-        System.out.println(a);
+    public static int result(Scanner scan) {
+        if (scan.hasNextInt()) {
+            return scan.nextInt();
+        } else {
+            System.exit(0);
+            return 0;
+        }
     }
 }
