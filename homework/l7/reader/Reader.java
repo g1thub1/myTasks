@@ -61,13 +61,13 @@ public class Reader {
     }
 
     public void takeBook(int books) {
-        System.out.println(this.fullName + " взял книгу" + books + " ");
+        System.out.println(this.fullName + " взял книгу " + books + " ");
     }
 
     public void takeBook(String... arg) {
         System.out.println(this.fullName + "");
         for (String x : arg) {
-            System.out.println(x + ",");
+            System.out.println(x + " ");
         }
         System.out.println(" ");
     }
@@ -75,7 +75,7 @@ public class Reader {
     public void takeBook(Book... arg) {
         System.out.println(this.fullName + "");
         for (Book x : arg) {
-            System.out.println(x.getName() + ",");
+            System.out.println(x.getName() + " ");
         }
         System.out.println(" ");
     }
@@ -85,7 +85,7 @@ public class Reader {
     }
 
     public void returnNumber(int books) {
-        System.out.println(this.fullName + "" + books + "");
+        System.out.println(this.fullName + " " + books + " ");
     }
 
     public void returnBook(Book... arg) {
