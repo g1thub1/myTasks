@@ -8,12 +8,12 @@ public class CarDemo {
         Driver d1, d2, d3;
         Car c1, c2, c3;
 
-        c1 = new Car("Subaru", "sedan", 1200, d1 = new Driver("John", "Tanner",
+        c1 = new Car("Lada", "sedan", 1200, d1 = new Driver("John", "Konnor",
                 32, 14), new Engine(305, "Gunma Oizumi Plant"));
-        c2 = new Lorry("Scania", "lorry", 3000, d2 = new Driver("Jerico",
+        c2 = new Lorry("Bmw", "x6", 3000, d2 = new Driver("Frederico",
                 "Castle", 35, 17), new Engine(450, "GM"), 400);
-        c3 = new SportСar("Mitsubishi", "sedan", 1300, d3 = new Driver("Carl",
-                "Johnson", 22, 4), new Engine(450, "MM"), 250);
+        c3 = new SportСar("Mitsubishi", "g65", 1300, d3 = new Driver("Carl",
+                "Johnsson", 22, 4), new Engine(450, "MM"), 250);
 
         c1.start();
         c1.stop();

@@ -64,7 +64,7 @@ public class Flowers {
         for (int i = 0; i < bquets.length; i++) {
             priceOfBquet += bquets[i].getPrice();
         }
-        System.out.println("Цена букета составляет : " + priceOfBquet);
+        System.out.println("Цена букета составляет : " + priceOfBquet);return 0;
     }
 }
 
