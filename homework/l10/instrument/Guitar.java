@@ -14,14 +14,6 @@ public class Guitar implements Instrument {
         System.out.println("Играет " + KEY + " c такими то характеристиками " + strun);
     }
 
-    public int getStrun() {
-        return strun;
-    }
-
-    public void setStrun(int strun) {
-        this.strun = strun;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -41,4 +33,13 @@ public class Guitar implements Instrument {
                 "strun=" + strun +
                 '}';
     }
+
+    public int getStrun() {
+        return strun;
+    }
+
+    public void setStrun(int strun) {
+        this.strun = strun;
+    }
+
 }

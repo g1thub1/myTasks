@@ -14,14 +14,6 @@ public class Drum implements Instrument {
         System.out.println("Играет " + KEY + " c такими то характеристиками " + size);
     }
 
-    public int getSize() {
-        return size;
-    }
-
-    public void setSize(int size) {
-        this.size = size;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -40,5 +32,13 @@ public class Drum implements Instrument {
         return "Drum{" +
                 "size=" + size +
                 '}';
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
     }
 }

@@ -28,7 +28,6 @@ public class Phone {
     }
 
     void receiveCall(String name, String number) {
-        this.getNumber();
         System.out.println("Звонит " + name + "с номером телефона " + number);
     }
 

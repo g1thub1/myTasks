@@ -15,4 +15,12 @@ public class Aspirant extends Student {
     public String getScienceWork() {
         return scienceWork;
     }
+
+    public double getScholarship() {
+        if (getAvgMark() == 4) {
+            return 200;
+        } else {
+            return 180;
+        }
+    }
 }

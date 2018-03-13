@@ -14,14 +14,6 @@ public class Tube implements Instrument {
         System.out.println("Играет " + KEY + " c такими то характеристиками " + diametr);
     }
 
-    public int getDiametr() {
-        return diametr;
-    }
-
-    public void setDiametr(int diametr) {
-        this.diametr = diametr;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -40,5 +32,13 @@ public class Tube implements Instrument {
         return "Tube{" +
                 "diametr=" + diametr +
                 '}';
+    }
+
+    public int getDiametr() {
+        return diametr;
+    }
+
+    public void setDiametr(int diametr) {
+        this.diametr = diametr;
     }
 }
