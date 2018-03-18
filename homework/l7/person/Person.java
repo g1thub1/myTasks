@@ -9,7 +9,7 @@ package homework.l7.person;
  */
 public class Person {
     String fullName = "Wyster";
-    private int age = 10;
+    public int age = 10;
 
     Person(String fullName, int age) {
         fullName = "Haryy";
