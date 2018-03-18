@@ -6,7 +6,7 @@ package homework.l11_12;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Patternn {
+public class PatternDemo {
     public static void main(String[] args) {
         Pattern pattern = Pattern.compile("c+a*b");
         Matcher matcher = pattern.matcher("cab");
