@@ -1,5 +1,7 @@
 package homework.l10.clothes;
 
 public interface WomensClothing {
-    void clotheAWoman();
+    static void clotheAWoman(){
+        System.out.println("Надеть то-то на женщину");
+    }
 }
