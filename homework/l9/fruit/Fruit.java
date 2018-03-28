@@ -17,10 +17,6 @@ public abstract class Fruit {
 
     public abstract int getCostFruit();
 
-    public static int getCostFruit() {
-        return costFruit;
-    }
-
     public static int getCnt() {
         return cnt;
     }
